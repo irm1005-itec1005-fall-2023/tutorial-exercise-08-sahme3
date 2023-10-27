@@ -27,7 +27,7 @@
   Nothing to change in here but keep a note of the
   "transition" property
  */
-.responsive-box {
+ .responsive-box {
   padding: 2rem;
   text-align: center;
 
@@ -57,8 +57,7 @@
 */
 @media (min-width: 576px) {
   .responsive-box {
-    /* 1. Add code here to set the background colour to #dc2f02 */
-
+    background-color: #dc2f02;
   }
 }
 
@@ -67,10 +66,11 @@
   Anything larger than 768px will have these styles applied
   (until the viewport gets to the next specified breakpoint)
 */
-
-/* 2. Add code here to setup a media query with a minwidth of 768px
-      and then create a class inside the media query for the
-      responsive-box and set the background colour to #d00000 */
+@media (min-width: 768px) {
+  .responsive-box {
+    background-color: #d00000;
+  }
+}
 
 
 /*
@@ -78,10 +78,11 @@
   Anything larger than 992px will have these styles applied
   (until the viewport gets to the next specified breakpoint)
 */
-
-/* 3. Add code here to setup a media query with a minwidth of 992px
-      and then create a class inside the media query for the
-      responsive-box and set the background colour to #9d0208 */
+@media (min-width: 992px) {
+  .responsive-box {
+    background-color: #9d0208;
+  }
+}
 
 
 /*
@@ -89,18 +90,12 @@
   Anything larger than 1200px will have these styles applied
   (until the viewport gets to the next specified breakpoint)
 */
+@media (min-width: 1200px) {
+  .responsive-box {
+    background-color: #6a040f;
+  }
+}
 
-/* 4. Add code here to setup a media query with a minwidth of 1200px
-      and then create a class inside the media query for the
-      responsive-box and set the background colour to #6a040f */
-
-/*
-
-  That's it that's all! Now just check your work in the browser
-  and make sure the background colour changes as you resize the
-  browser window.
-
-*/
 
 /*
   CORE PAGE CSS - DO NOT MODIFY
